@@ -1,5 +1,10 @@
 # Sample workflow for building and deploying a VitePress site to GitHub Pages
 #
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 name: Deploy VitePress site to Pages
 
 on:
