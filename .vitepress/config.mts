@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Huge Ai For Evering",
   description: "A VitePress Site",
+  base: '/Refactor-Power-to-AI/', // 例如：'/PromptEngineeringStudy/'
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

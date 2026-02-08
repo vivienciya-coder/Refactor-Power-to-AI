@@ -15,9 +15,9 @@ Welcome to one of the most extensive and dynamic collections of Prompt Engineeri
 <div align="center">
 
 <a href="https://coderabbit.link/nir">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="images/coderabbit_Dark_Type_Mark.png">
-    <img src="images/coderabbit_Light_Type_Mark_Orange.png" height="60" alt="Coderabbit">
+  <picture>                                                     
+    <source media="(prefers-color-scheme: dark)" srcset="./images/coderabbit_Dark_Type_Mark.png">
+    <img src="./images/coderabbit_Light_Type_Mark_Orange.png" height="60" alt="Coderabbit">
   </picture>
 </a>
 
@@ -341,7 +341,6 @@ We welcome contributions from the community! If you have a new technique or impr
 
 ## License
 
-This project is licensed under a custom non-commercial license - see the [LICENSE](LICENSE) file for details.
 
 ---
 
