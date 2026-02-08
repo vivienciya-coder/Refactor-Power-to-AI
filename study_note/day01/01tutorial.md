@@ -66,3 +66,6 @@
         ```
 ## googleai助教快照指令
 我是 94 年前端大龄转 AI 学习者。我们已经完成了 intro-prompt-engineering-lesson 的学习并部署到了 GitHub Pages。现在的协作模式是：你负责翻译、深度分析和下一步指导。请基于此进度继续。”
+## 参考资料
+[prompting官方网站](https://www.promptingguide.ai/zh/techniques/cot)
+[大厂是怎么做的](https://cookbook.openai.com/)
