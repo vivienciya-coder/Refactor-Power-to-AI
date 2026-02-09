@@ -17,7 +17,7 @@ aside: false # 首页不需要右侧目录
 
 | 项目文件学习顺序 | 文件名称 | 状态 | 开始日期 | 学习笔记 |
 | :--- | :--- | :--- | :--- | :--- |
-| **1** | Introduction to Prompt Engineering Tutorial | **已完成** | 202.02.08 | [查看笔记](/study_note/day01/01tutorial.md)|
+| **1** | Introduction to Prompt Engineering Tutorial | **已完成** | 202.02.08 | [查看笔记](/study_note/day01/note.md)|
 |  **2** | instruction-engineering-notebook.ipynb | 待学习 | 待定 |-|
 |  **3** | 计划中 | 计划中 | - |-|
 
