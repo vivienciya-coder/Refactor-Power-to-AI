@@ -9,7 +9,7 @@
 ## 一、今日目标
 
 - [ ] 单轮提示词 和 多轮提示词是什么 有什么区别 应用到什么场景
-- [ ] 多轮提示词小demo实现  用langchain_core from_messages  StrOutputParser ChatMessageHistory 即如何让ai拥有记忆
+- [ ] 多轮提示词小demo实现  用langchain_core from_messages  StrOutputParser ChatMessageHistory RunnableWithMessageHistory 即如何让ai拥有记忆
 - [ ] 通过列子明白clel的含义
 
 ---
