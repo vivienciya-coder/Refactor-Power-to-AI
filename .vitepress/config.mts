@@ -18,7 +18,7 @@ export default defineConfig({
         items: [
           { text: 'PromptEngineering项目学习笔记', link: '/pages/promptingNote.md',items:[{
             text:'Day1 intro-prompt-engineering-lesson 笔记',link:'/study_note/day01/note.html',
-          },{ text:'Day2 basic-prompt-structures.ipynb 笔记',link:'/study_note/day02/note.html'},{ text:'Day2 basic-prompt-structures.ipynb 笔记',link:'/study_note/day02/note.html'}]},
+          },{ text:'Day2 basic-prompt-structures.ipynb 笔记',link:'/study_note/day02/note.html'},{ text:'Day3 advanced-prompt-techniques.ipynb 笔记',link:'/study_note/day03/note.html'}]},
         ]
       }
     ],
