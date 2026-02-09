@@ -2,7 +2,10 @@ import os
 import sys
 from dotenv import load_dotenv
 from langchain_ollama import ChatOllama
-from langchain_core.prompts import PromptTemplate
+#占位符
+from langchain_core.prompts import PromptTemplate,MessagesPlaceholder 
+# 输出解释器 将复杂对话结果转为蚊子
+from langchain_core.output_parsers import StrOutputParser
 
 # 1. 解决 VPN 导致本地连接 502 的问题
 os.environ['NO_PROXY'] = 'localhost,127.0.0.1'
@@ -29,9 +32,13 @@ def run_task():
     
     # 3. 组合链并运行
     chain = prompt_template | llm
-    
+    #单轮提示次学习
+    #定义一个输入的prompt
+    #single_turn_vars = '什么是3原色？'
+    #接着我们用结构化提示模板来进行交互
+    single_turn_vars = prompt_template.format(topic='什么是3原色？')
     try:
-        response = chain.invoke({"topic": "请在此输入测试主题"})
+        response = chain.invoke({"topic": single_turn_vars})
         print(f"\nAI 回复:\n{response.content}")
     except Exception as e:
         print(f"❌ 出错: {e}")
