@@ -16,7 +16,8 @@
   - 通过自己封装一个模板模型函数 这就有了基础
   - 在通过py的jinja模板就可以动态的控制指令的内容 达到灵活 高效复用的目的
 ---
-
+### 2.2 学习了github copilt 很强大的功能
+  - 在vscode中使用copilt vscode copilt [学习地址](https://code.visualstudio.com/docs)
 ## 三、实践记录
 ### 3.1 核心代码实现
   - 初始化ollama补全函数
@@ -31,9 +32,9 @@
 
 > ### 💡 实践心得 <a id="solution-id"></a>
 ---
-## 五、 明日计划
+## 五、 英文笔记
 - 当前文章不熟悉的单词短句汇整笔记 [day3语言笔记](/study_note/day03/word_note.md)
-## 六、 语言学习
+## 六、 明日任务
 - [ ] 下一步任务
 
 ---
