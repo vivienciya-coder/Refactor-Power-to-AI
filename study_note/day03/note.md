@@ -20,10 +20,10 @@
 ## 三、实践记录
 ### 3.1 核心代码实现
   - 初始化ollama补全函数
-  - 在模板中添加单个变量 [demo详见](./code/01_llm_client.py.py)
-  - 在模板中添加多个变量  [demo详见](./code/02_create_propstemplate.py)
-  - 在模板中添加list类型的变量  [demo详见](./code/03_dynamic%20_instructions_template.py)
-  - 在模板中添加动态指令  demo详见
+  - 在模板中添加单个变量 [demo详见](https://github.com/vivienciya-coder/Refactor-Power-to-AI/blob/main/study_note/day03/code/01_llm_client.py)
+  - 在模板中添加多个变量 [ demo详见](https://github.com/vivienciya-coder/Refactor-Power-to-AI/blob/main/study_note/day03/code/02_create_propstemplate.py)
+  - 在模板中添加list类型的变量  [ demo详见](https://github.com/vivienciya-coder/Refactor-Power-to-AI/blob/main/study_note/day03/code/02_create_propstemplate.py)
+  - 在模板中添加动态指令  [demo详见](https://github.com/vivienciya-coder/Refactor-Power-to-AI/blob/main/study_note/day03/code/03_dynamic%20_instructions_template.py)
 ### 3.2 坑位与 Debug (Q&A)
 | 问题现象 | 解决方案 | 核心原理 |
 | :--- | :--- | :--- |
@@ -32,7 +32,7 @@
 > ### 💡 实践心得 <a id="solution-id"></a>
 ---
 ## 五、 明日计划
-- 当前文章不熟悉的单词短句汇整笔记 [day3语言笔记](./word_note.md)
+- 当前文章不熟悉的单词短句汇整笔记 [day3语言笔记](/study_note/day03/word_note.md)
 ## 六、 语言学习
 - [ ] 下一步任务
 
