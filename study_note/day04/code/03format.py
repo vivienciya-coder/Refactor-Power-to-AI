@@ -21,16 +21,12 @@ def creat_chain(prompt_template):
     """
     prompt = PromptTemplate.from_template(prompt_template)
     return prompt  | llm
-direct_task_prompt = """请将以下文本的情感倾向分类为积极、消极或中性。无需说明理由，仅提供分类结果
-    Text:{text}
-    Sentiment:"""
-direct_task_chain = creat_chain(direct_task_prompt)
-texts = [
-    "我很喜欢电影尤其是动作电影.",
-    "今天的天气和今年的每一天都不太一样",
-    "我对餐厅的服务感到失望."
-]
-for text in texts:
-    res = direct_task_chain.invoke({"text":text}).content
-    print(f"Text: {text}")
-    print(f"Sentiment: {res}")
+format_spec_prompt ="""生成一篇关于 {topic} 的简短新闻稿。请按以下格式组织你的回答：
+        标题：[一个吸引人的文章标题]
+        导语：[一段简要介绍关键点的引言]
+        正文：[2-3个提供更多细节的短段落]
+        结语：[一句总结性的话或行动号召]"""
+format_spec_prompt_chain = creat_chain(format_spec_prompt)
+topic = "类地系外新行星的发现"
+res = format_spec_prompt_chain.invoke({"topic":topic}).content
+print(res)

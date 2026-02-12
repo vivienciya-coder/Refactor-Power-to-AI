@@ -17,10 +17,7 @@ def creat_chain(prompt_template):
     Args:
         prompt_template(str):提示词模板的字符串
     Returns:
-        LLMChain:返回一个带有prompt_template的语言模型的链式调用函数
+        ChatOllama:返回一个带有prompt_template的语言模型的链式调用函数
     """
-    #定义一个结构化提示词模板
-def creat_chain(prompt_template):
     prompt = PromptTemplate.from_template(prompt_template)
-    return llm|prompt
-print(print(creat_chain.invoke("什么是3原色？")))
+    return prompt  | llm

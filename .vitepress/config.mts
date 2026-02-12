@@ -20,7 +20,9 @@ export default defineConfig({
             text:'Day1 intro-prompt-engineering-lesson 笔记',link:'/study_note/day01/note.html',
           },
           { text:'Day2 basic-prompt-structures.ipynb 笔记',link:'/study_note/day02/note.html'},
-          { text:'Day3 advanced-prompt-techniques.ipynb 笔记',link:'/study_note/day03/note.html'}]},
+          { text:'Day3 advanced-prompt-techniques.ipynb 笔记',link:'/study_note/day03/note.html'},
+         { text:'Day4 zero shot prompt.ipynb 笔记',link:'/study_note/day04/note.html'},]},
+          
         ]
       }
     ],
