@@ -61,3 +61,6 @@
 
 ##新的学习连接
 - 学习大佬们写的 prompt [地址](https://smith.langchain.com/hub/?organizationId=2703d989-e573-414d-b111-5cbcabf974b4)
+
+## 四、 英文笔记
+- 当前文章不熟悉的单词短句汇整笔记 [day4语言笔记](/study_note/day04/word_note.md)
